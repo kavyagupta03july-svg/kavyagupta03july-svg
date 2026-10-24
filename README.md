@@ -1,7 +1,64 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://demolab.com" width="100%" alt="Kavya Gupta Banner" />
+  <svg width="750" height="200" viewBox="0 0 750 200" xmlns="http://w3.org">
+    <!-- Dark Background -->
+    <rect width="100%" height="100%" fill="#0a0a0a" rx="10"/>
+    
+    <!-- Neon Dark Red Glowing Border Effect -->
+    <rect x="5" y="5" width="740" height="190" fill="none" stroke="#2d0a0a" stroke-width="2" rx="8"/>
+    <rect x="8" y="8" width="734" height="184" fill="none" stroke="#6b1111" stroke-width="1" rx="6" stroke-dasharray="10 5"/>
+    
+    <!-- Corner Accents -->
+    <path d="M 12,25 L 12,12 L 25,12" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <path d="M 738,25 L 738,12 L 725,12" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <path d="M 12,175 L 12,188 L 25,188" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <path d="M 738,175 L 738,188 L 725,188" fill="none" stroke="#ef4444" stroke-width="2"/>
+
+    <!-- Top Badge Header: Building Real-World Tech -->
+    <rect x="275" y="25" width="200" height="22" rx="11" fill="#1f0707" stroke="#6b1111" stroke-width="1"/>
+    <text x="375" y="39" font-family="'Fira Code', monospace, sans-serif" font-size="10" font-weight="bold" fill="#ef4444" text-anchor="middle" letter-spacing="1.5">✦ BUILDING REAL-WORLD TECH ✦</text>
+
+    <!-- Main Title: KAVYA GUPTA (With Neon Glow Styles) -->
+    <style>
+      .glow-text {
+        font-family: 'Montserrat', 'Fira Code', sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        fill: #ffffff;
+        letter-spacing: 4px;
+        text-anchor: middle;
+      }
+      .sub-text {
+        font-family: 'Fira Code', monospace, sans-serif;
+        font-size: 13px;
+        fill: #b3b3b3;
+        letter-spacing: 2px;
+        text-anchor: middle;
+      }
+      .highlight-red {
+        fill: #ef4444;
+        font-weight: bold;
+      }
+      .footer-quote {
+        font-family: 'Fira Code', monospace, sans-serif;
+        font-size: 10px;
+        fill: #666666;
+        text-anchor: middle;
+        letter-spacing: 1px;
+      }
+    </style>
+    
+    <text x="375" y="95" class="glow-text">KAVYA GUPTA</text>
+
+    <!-- Subtitle: Developer Roles -->
+    <text x="375" y="135" class="sub-text">FULL STACK DEVELOPER <tspan class="highlight-red">•</tspan> WEB DESIGNER</text>
+
+    <!-- Bottom Decorative Line and Quote -->
+    <line x1="250" y1="155" x2="500" y2="155" stroke="#331111" stroke-width="1"/>
+    <circle cx="375" cy="155" r="3" fill="#ef4444"/>
+    <text x="375" y="178" class="footer-quote">// TURNING RANDOM IDEAS INTO PRODUCTION CODE</text>
+  </svg>
 </p>
 
 # Hi, I'm Kavya Gupta 👋
