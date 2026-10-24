@@ -1,8 +1,147 @@
 <!-- ===================== HEADER ===================== -->
 
-<div align="center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070709" />
+      <stop offset="50%" stop-color="#0f0709" />
+      <stop offset="100%" stop-color="#050507" />
+    </linearGradient>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:8B0000,100:FF0000&height=200&section=header&text=Kavya%20Gupta&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20B.Tech%20CSE%20Student&descAlignY=58&descSize=18" alt="Kavya Gupta header" />
+    <!-- Red Neon Gradient for Text -->
+    <linearGradient id="red-glow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4458" />
+      <stop offset="40%" stop-color="#ff1a35" />
+      <stop offset="70%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#ff2a45" />
+      <animate attributeName="x1" from="-100%" to="100%" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="x2" from="0%" to="200%" dur="7s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7f1d1d" />
+      <stop offset="30%" stop-color="#ef4444" />
+      <stop offset="50%" stop-color="#ff4d6d" />
+      <stop offset="70%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#7f1d1d" />
+    </linearGradient>
+
+    <!-- Filters for Neon Glow -->
+    <filter id="glow-red" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="ambient-blur">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="tech-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ef4444" stroke-width="0.75" stroke-opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 900;
+      font-size: 44px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      fill: #e2e8f0;
+    }
+    .badge-text {
+      font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      fill: #ff4d6d;
+    }
+    .pulse-dot {
+      animation: pulse 2s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.4; r: 4px; }
+      50% { opacity: 1; r: 6px; }
+      100% { opacity: 0.4; r: 4px; }
+    }
+  </style>
+
+  <!-- Background Rect -->
+  <rect width="900" height="220" rx="14" fill="url(#bg-grad)" />
+
+  <!-- Ambient Red Glows -->
+  <circle cx="150" cy="70" r="90" fill="#dc2626" opacity="0.18" filter="url(#ambient-blur)" />
+  <circle cx="750" cy="120" r="110" fill="#ff1a35" opacity="0.14" filter="url(#ambient-blur)" />
+
+  <!-- Subtle Tech Grid -->
+  <rect width="900" height="220" rx="14" fill="url(#tech-grid)" />
+
+  <!-- Border Outline -->
+  <rect x="1.5" y="1.5" width="897" height="217" rx="13" fill="none" stroke="url(#border-grad)" stroke-width="1.5" stroke-opacity="0.65" />
+
+  <!-- Cybernetic Corner Accents -->
+  <!-- Top-Left -->
+  <path d="M 12 30 L 12 14 L 30 14" stroke="#ff2a45" stroke-width="3" fill="none" stroke-linecap="round" />
+  <!-- Top-Right -->
+  <path d="M 888 30 L 888 14 L 870 14" stroke="#ff2a45" stroke-width="3" fill="none" stroke-linecap="round" />
+  <!-- Bottom-Left -->
+  <path d="M 12 190 L 12 206 L 30 206" stroke="#ff2a45" stroke-width="3" fill="none" stroke-linecap="round" />
+  <!-- Bottom-Right -->
+  <path d="M 888 190 L 888 206 L 870 206" stroke="#ff2a45" stroke-width="3" fill="none" stroke-linecap="round" />
+
+  <!-- Status Pill Badge at Top Center -->
+  <g transform="translate(325, 24)">
+    <rect width="250" height="26" rx="13" fill="#17090b" stroke="#ff2a45" stroke-width="1" stroke-opacity="0.7" />
+    <circle cx="18" cy="13" r="5" fill="#ef4444" class="pulse-dot" />
+    <text x="135" y="17.5" text-anchor="middle" class="badge-text">BUILDING REAL-WORLD TECH</text>
+  </g>
+
+  <!-- Main Name Header -->
+  <text x="450" y="105" text-anchor="middle" class="title-text" fill="url(#red-glow-grad)" filter="url(#glow-red)">
+    KAVYA GUPTA
+  </text>
+  <text x="450" y="105" text-anchor="middle" class="title-text" fill="#ffffff" fill-opacity="0.95">
+    KAVYA GUPTA
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="450" y="142" text-anchor="middle" class="subtitle-text">
+    <tspan fill="#ff4d6d">COMPUTER SCIENCE ENGINEER</tspan>
+    <tspan fill="#64748b"> &#8226; </tspan>
+    <tspan fill="#f1f5f9">FULL STACK</tspan>
+    <tspan fill="#64748b"> &#8226; </tspan>
+  </text>
+
+  <!-- Decorative Sleek Red Line with Diamond -->
+  <g transform="translate(0, 160)">
+    <line x1="200" y1="0" x2="420" y2="0" stroke="url(#border-grad)" stroke-width="1.5" stroke-opacity="0.8" />
+    <polygon points="450,-5 455,0 450,5 445,0" fill="#ef4444" filter="url(#glow-red)" />
+    <line x1="480" y1="0" x2="700" y2="0" stroke="url(#border-grad)" stroke-width="1.5" stroke-opacity="0.8" />
+  </g>
+
+  <!-- Secondary Meta Tags at Bottom -->
+  <g transform="translate(450, 192)">
+    <text text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#94a3b8" letter-spacing="1.5">
+      <tspan fill="#ef4444">&lt;/&gt;</tspan> TURNING RANDOM IDEAS INTO PRODUCTION CODE
+    </text>
+  </g>
+</svg>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Building+Modern+Web+Applications;Frontend+%7C+Backend+Development;Turning+Ideas+Into+Digital+Experiences" alt="Typing SVG" />
@@ -21,7 +160,9 @@
 <!-- ===================== ABOUT ME ===================== -->
 
 <div align="center">
-<b> #About Me </b>
+
+## 🔴 About
+
 </div>
 
 <img align="right" alt="Coding animation" width="300" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" />
@@ -49,36 +190,55 @@ I am dedicated to crafting seamless web applications, from design to deployment.
 
 <div align="center">
 
-## 🛠️ Tech Stack & Skills
+## 🔴 Tech Stack & Skills
 
 </div>
 
+<div align="center">
+  
+## 🔴 Programming Languages
 
-### 💻 Programming Languages
+</div>
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css" alt="Programming languages" />
 </p>
 
-### 🎨 Frontend Development
+<div align="center">
+  
+## 🔴 Frontend Development
+
+</div>
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react,redux,angular,html,css" alt="Frontend technologies" />
 </p>
 
-### ⚙️ Backend Development
+<div align="center">
+  
+## 🔴 Backend Development
+
+</div>
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nodejs" alt="Backend technologies" />
 </p>
 
-### 🗄️ Databases
+<div align="center">
+  
+### 🔴 Databases
+
+</div>
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,oracle" alt="Database technologies" />
 </p>
 
-### 🔧 Tools & Platforms
+<div align="center">
+  
+### 🔴 Tools & Platforms
+
+</div>
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,firebase,vercel,netlify" alt="Tools and platforms" />
@@ -90,7 +250,11 @@ I am dedicated to crafting seamless web applications, from design to deployment.
 
 <!-- ===================== WHAT I DO ===================== -->
 
-## 🚀 What I Do
+<div align="center">
+  
+### 🔴 What I Do
+
+</div>
 
 <table>
   <tr>
@@ -123,7 +287,11 @@ I am dedicated to crafting seamless web applications, from design to deployment.
 
 <!-- ===================== GITHUB STATISTICS ===================== -->
 
-## 📊 GitHub Statistics
+<div align="center">
+
+## 🔴 GitHub Statistics
+
+</div>
 
 <div align="center">
 
@@ -147,7 +315,11 @@ I am dedicated to crafting seamless web applications, from design to deployment.
 
 <!-- ===================== CONTRIBUTION GRAPH ===================== -->
 
-## 🐍 Contribution Graph
+<div align="center>
+
+## 🔴 Contribution Graph  
+
+</div>
 
 <div align="center">
 
@@ -159,7 +331,11 @@ I am dedicated to crafting seamless web applications, from design to deployment.
 
 <!-- ===================== PROJECTS ===================== -->
 
-## 💼 Projects
+<div align="center">
+
+## 🔴 Projects
+
+</div>
 
 I am continuously building projects to strengthen my development skills and create practical applications.
 
@@ -177,7 +353,11 @@ I am continuously building projects to strengthen my development skills and crea
 
 <!-- ===================== CONNECT WITH ME ===================== -->
 
+<div align="center"
+
 ## 🌐 Connect With Me
+
+</div>
 
 <div align="center">
 
@@ -206,7 +386,11 @@ I am continuously building projects to strengthen my development skills and crea
 
 <!-- ===================== CURRENT GOALS ===================== -->
 
+<div align="center">
+
 ## 🎯 Current Goals
+
+</div>
 
 * 🚀 Build and improve full-stack web applications.
 * 💡 Strengthen my frontend and backend development skills.
@@ -218,7 +402,11 @@ I am continuously building projects to strengthen my development skills and crea
 
 <!-- ===================== QUOTE ===================== -->
 
-## 💭 Developer Quote
+<div align="center">
+  
+## 🔴 Developer Quote
+
+</div>
 
 <div align="center">
 
@@ -226,7 +414,11 @@ I am continuously building projects to strengthen my development skills and crea
 
 <br/>
 
-### 💻 Keep Learning. Keep Building. Keep Growing. 🔥
+<div align="center">
+
+## 💻 Keep Learning. Keep Building. Keep Growing. 🔥
+
+</div>
 
 </div>
 
