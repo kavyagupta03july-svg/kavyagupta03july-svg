@@ -47,7 +47,12 @@ I am dedicated to crafting seamless web applications, from design to deployment.
 
 <!-- ===================== TECH STACK ===================== -->
 
+<div align="center">
+
 ## 🛠️ Tech Stack & Skills
+
+</div>
+
 
 ### 💻 Programming Languages
 
