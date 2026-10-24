@@ -20,7 +20,9 @@
 
 <!-- ===================== ABOUT ME ===================== -->
 
+<div align="center">
 ## 👩‍💻 About Me
+</div>
 
 <img align="right" alt="Coding animation" width="300" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" />
 
