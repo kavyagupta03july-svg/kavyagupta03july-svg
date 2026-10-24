@@ -189,7 +189,7 @@ I am continuously building projects to strengthen my development skills and crea
 
 <br/><br/>
 
-<a href="https://kavya-gupta-portfolio-beta.versal.app/">
+<a href="https://kavya-gupta-portfolio-beta.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Website-8B0000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website" />
 </a>
 
