@@ -21,7 +21,7 @@
 <!-- ===================== ABOUT ME ===================== -->
 
 <div align="center">
-<b> About Me </b>
+<b> #About Me </b>
 </div>
 
 <img align="right" alt="Coding animation" width="300" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" />
