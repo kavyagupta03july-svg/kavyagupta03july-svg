@@ -1,5 +1,9 @@
 <div align="center">
 
+<p align="center">
+  <img src="https://demolab.com" width="100%" alt="Kavya Gupta Banner" />
+</p>
+
 # Hi, I'm Kavya Gupta 👋
 
 ### Full Stack Developer | B.Tech Computer Science Student
