@@ -2,7 +2,7 @@
 
 <div align="center">
   <img
-    src="./banner.svg"
+    src="https://raw.githubusercontent.com/kavyagupta03july-svg/kavyagupta03july-svg/main/banner.svg"
     alt="Kavya Gupta - Full Stack Developer"
     width="100%"
   />
