@@ -1,7 +1,8 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
-  <img src="./banner.xml" width="100%" alt="Kavya Gupta - Full Stack Developer"/>
+  <img src="./banner.svg" width="100%" alt="Kavya Gupta - Full Stack Developer"/>
 </div>
+
 ---
 
 <!-- ===================== ABOUT ME ===================== -->
