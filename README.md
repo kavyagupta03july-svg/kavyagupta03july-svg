@@ -1,8 +1,7 @@
 <!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Kavya Gupta Banner" />
+  <img src="https://githubusercontent.com" width="100%" alt="Kavya Gupta Banner" />
 </p>
-
 
 ---
 
