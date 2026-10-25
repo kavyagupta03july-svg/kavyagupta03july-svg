@@ -1,15 +1,6 @@
 <!-- ===================== HEADER ===================== -->
-
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:8B0000,100:FF0000&height=200&section=header&text=Kavya%20Gupta&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20B.Tech%20CSE%20Student&descAlignY=58&descSize=18" alt="Kavya Gupta header" />
-
-<a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Building+Modern+Web+Applications;Frontend+%7C+Backend+Development;Turning+Ideas+Into+Digital+Experiences" alt="Typing SVG" /> </a>
-
-<br/>
-
-<a href="https://github.com/kavyagupta03july-svg"> <img src="https://komarev.com/ghpvc/?username=kavyagupta03july-svg&label=PROFILE%20VIEWS&color=red&style=for-the-badge" alt="Profile views" /> </a>
-
+  <img src="./banner.html" width="100%" alt="Kavya Gupta - Full Stack Developer" />
 </div>
 ---
 
