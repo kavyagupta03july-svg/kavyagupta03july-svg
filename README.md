@@ -1,8 +1,11 @@
 <!-- ===================== HEADER ===================== -->
-<p align="center">
-  <img src="./banner.svg" width="100%" alt="Kavya Gupta Banner" />
-</p>
-
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/kavyagupta03july-svg/kavyagupta03july-svg/main/banner.svg"
+    width="100%"
+    alt="Kavya Gupta - Full Stack Developer"
+  />
+</div>
 ---
 
 <!-- ===================== ABOUT ME ===================== -->
