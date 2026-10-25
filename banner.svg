@@ -1,0 +1,66 @@
+<svg xmlns="http://w3.org" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <!-- Cybernetic Background Gradient -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#3b0709" />
+      <stop offset="55%" stop-color="#140304" />
+      <stop offset="100%" stop-color="#080202" />
+    </radialGradient>
+
+    <!-- Neon Red Text Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="14" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main Background Card -->
+  <rect width="900" height="240" rx="14" fill="url(#bgGlow)" />
+
+  <!-- Outer Subtle Border -->
+  <rect x="6" y="6" width="888" height="228" rx="10" fill="none" stroke="#450a0a" stroke-width="1.5" />
+
+  <!-- Corner Cybernetic Brackets -->
+  <path d="M 18 42 L 18 18 L 42 18" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round" />
+  <path d="M 882 42 L 882 18 L 858 18" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round" />
+  <path d="M 18 198 L 18 222 L 42 222" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round" />
+  <path d="M 882 198 L 882 222 L 858 222" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Top Pill Badge: BUILDING REAL-WORLD TECH -->
+  <rect x="330" y="30" width="240" height="28" rx="14" fill="#1c0506" stroke="#7f1d1d" stroke-width="1.2" />
+  <text x="450" y="48" font-family="'Fira Code', 'Courier New', monospace" font-size="11" font-weight="700" fill="#f87171" text-anchor="middle" letter-spacing="1.8">
+    ✦ BUILDING REAL-WORLD TECH
+  </text>
+
+  <!-- Main Glowing Layer: KAVYA GUPTA -->
+  <text x="450" y="118" font-family="'Segoe UI', 'Montserrat', 'Arial Black', sans-serif" font-size="48" font-weight="900" fill="#ef4444" text-anchor="middle" letter-spacing="5" filter="url(#neonGlow)" opacity="0.85">
+    KAVYA GUPTA
+  </text>
+
+  <!-- Crisp Foreground Layer: KAVYA GUPTA -->
+  <text x="450" y="118" font-family="'Segoe UI', 'Montserrat', 'Arial Black', sans-serif" font-size="48" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="5">
+    KAVYA GUPTA
+  </text>
+
+  <!-- Subtitle: COMPUTER SCIENCE ENGINEER • FULL STACK -->
+  <text x="450" y="156" font-family="'Fira Code', 'Segoe UI', monospace" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2.5">
+    <tspan fill="#f87171">COMPUTER SCIENCE ENGINEER</tspan>
+    <tspan fill="#ef4444"> • </tspan>
+    <tspan fill="#ffffff">FULL STACK DEVELOPER</tspan>
+  </text>
+
+  <!-- Center Divider Line & Glowing Dot -->
+  <line x1="280" y1="178" x2="620" y2="178" stroke="#450a0a" stroke-width="1.5" />
+  <circle cx="450" cy="178" r="4" fill="#ef4444" filter="url(#neonGlow)" />
+  <circle cx="450" cy="178" r="2.5" fill="#ffffff" />
+
+  <!-- Bottom Code Tagline -->
+  <text x="450" y="206" font-family="'Fira Code', 'Courier New', monospace" font-size="11.5" font-weight="600" fill="#d1d5db" text-anchor="middle" letter-spacing="2">
+    <tspan fill="#ef4444">&lt;/&gt;</tspan> TURNING RANDOM IDEAS INTO PRODUCTION CODE
+  </text>
+</svg>
