@@ -1,10 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
-  <img
-    src="https://raw.githubusercontent.com/kavyagupta03july-svg/kavyagupta03july-svg/main/banner.svg"
-    width="100%"
-    alt="Kavya Gupta - Full Stack Developer"
-  />
+  <img src="./banner.xml" width="100%" alt="Kavya Gupta - Full Stack Developer"/>
 </div>
 ---
 
