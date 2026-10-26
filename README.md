@@ -271,6 +271,18 @@ I am continuously building projects to strengthen my development skills and crea
 
 <br/>
 
+## 🔴 Contribution Snake Animation
+
+<h2 align="center">🐍 My GitHub Contributions</h2>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/kavyagupta03july-svg/kavyagupta03july-svg/output/github-contribution-grid-snake.svg"
+    alt="GitHub Contribution Snake Animation"
+    width="100%"
+  />
+</p>
+
 <div align="center">
 
 ## 💻 Keep Learning. Keep Building. Keep Growing. 🔥
