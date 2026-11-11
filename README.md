@@ -194,12 +194,6 @@ I am dedicated to crafting seamless web applications, from design to deployment.
 
 </div>
 
-<div align="center">
-  
-## 🔴 Founder & Developer of Innovatex.cc.cd
-<img width="1217" height="864" alt="image" a href="https://innovatex.cc.cd" src="https://github.com/user-attachments/assets/4ad861f7-1ded-4d39-83a1-1f3122a9221e" />
-
-
 I am continuously building projects to strengthen my development skills and create practical applications.
 
 > 🚀 My GitHub repositories are the best place to explore my work and follow my development journey.
@@ -213,6 +207,12 @@ I am continuously building projects to strengthen my development skills and crea
 </div>
 
 ---
+
+<div align="center">
+  
+## 🔴 Founder & Developer of Innovatex.cc.cd
+
+<img width="1217" height="864" alt="image" src="https://github.com/user-attachments/assets/4ad861f7-1ded-4d39-83a1-1f3122a9221e" />
 
 <!-- ===================== CONNECT WITH ME ===================== -->
 
